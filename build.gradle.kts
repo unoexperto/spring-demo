@@ -43,9 +43,11 @@ dependencies {
 //	implementation("org.jetbrains.kotlinx:kotlinx-coroutines-reactor")
 
     implementation("com.h2database:h2:2.1.210")
+    implementation("org.jdbi:jdbi3-core:3.28.0")
 
     testImplementation("org.springframework.boot:spring-boot-starter-test:$springBoot")
 //	testImplementation("io.projectreactor:reactor-test")
+
 }
 
 tasks.withType<KotlinCompile> {
