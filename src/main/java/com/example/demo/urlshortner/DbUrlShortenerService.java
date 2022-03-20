@@ -1,12 +1,14 @@
 package com.example.demo.urlshortner;
 
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;
 
 import java.util.HashMap;
 import java.util.Map;
 
+@Primary
 @Service
-public class MemoryUrlShortenerService implements UrlShortenerService {
+public class DbUrlShortenerService implements UrlShortenerService {
 
     private long previousId = 0L;
 

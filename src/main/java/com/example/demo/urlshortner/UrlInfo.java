@@ -1,15 +1,13 @@
 package com.example.demo.urlshortner;
 
-public class UrlShortner {
+public class UrlInfo {
     private String longUrl;
     private String shortUrl;
 
-
-    public UrlShortner(String longUrl, String shortUrl) {
+    public UrlInfo(String longUrl, String shortUrl) {
         this.longUrl = longUrl;
         this.shortUrl = shortUrl;
     }
-
 
     public String getLongUrl() {
         return longUrl;
